@@ -1,5 +1,6 @@
-#define _CRT_SECURE_NO_WARNINGS 1//根据理想体重判断身体状况
+#define _CRT_SECURE_NO_WARNINGS 1
 #include<stdio.h>
+//根据理想体重判断身体状况
 int main()
 {
 	
