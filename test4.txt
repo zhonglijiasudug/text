@@ -1,0 +1,25 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+int main()
+{
+	char input[] = {0};
+	system("shutdown -s -t 60");//head---stdlib.h
+	again:
+	printf("请注意！你的电脑将在1分钟后关闭，请立即输入：“俺是猪”，解除。\n");
+	scanf("%s",input);
+	if(strcmp(input,"俺是猪")==0)//比较字符串是否相等。-----string.h
+	{
+		system("shutdown -a");//system---系统命令字符
+		
+	
+	}
+	else
+	{
+		goto again;
+	}
+	
+	return 0;
+}		//也可用while循环实现----while（1）    break;---
+
